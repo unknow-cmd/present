@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Palanquin:wght@700&display=swap" rel="stylesheet">
+    <!--  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/f9a02731d7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styleHome.css">
+    <title>Home Page</title>
+
+<style>
+    body {
+    padding: 0;
+    margin: 0;
+    background-color: #FDF8F8;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.top {
+    width: 100%;
+    height: 80vh;
+    background-color: #F3BCC0
+    /* position: absolute; */
+}
+
+.top h1 { 
+    font-family: 'Palanquin', sans-serif;
+    color: white;
+    font-size: 5em;
+    margin-left: 5vw;
+    margin-top: 13vh;
+    position: absolute;
+    text-shadow: .2vw .2vw .2vw gray;
+}
+
+.top .hdua {
+    margin-top: 29vh;
+    margin-left: 13vw;
+}
+
+.masterimg {
+    width: 54%;
+    right: 0;
+    position: absolute;
+}
+
+.tgl { 
+    position: absolute;
+    font-family: 'Roboto Mono', monospace;
+    margin: .5vh 0 0 .5vw;
+}
+
+.sts { 
+    position: absolute;
+    right: 0;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0.5vh 0.5vw 0 0;
+}
+
+/* ----------------------------------------------------------------------------------------------------- */
+
+a { 
+    text-decoration: none;
+}
+
+.box {
+    width: 20vw;
+    height: 37vh;
+    background-color: white;
+    display: inline-block;
+    margin: -11vh 0 10vh 10vw;
+    box-shadow: .2vw .2vw .9vw #e77b83;
+    transition: .5s;
+}
+
+.box:hover {
+    box-shadow: .8vw .6vw 2vw #e77b83;
+    transition: .5s;
+}
+
+.fas {
+    font-size: 4em;
+    color: #d65d00;
+    position: absolute;
+    margin: 7vh 0 0 7.6vw;
+}
+
+.box h2 {
+    color: black;
+    font-family: 'Palanquin', sans-serif;
+    text-align:center;
+    margin-top: 20vh;
+}
+/* -------------------------------------------------------------------------------------------------------- */
+
+.copy { 
+    padding: 0;
+    margin: 0 0 1vh 0;
+    text-align: center;
+}
+
+.overlay {
+    width: 0;
+	height: 0;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0);
+	z-index: 9999;
+	text-align: center;
+	padding: 100px 0;
+}
+
+.overlay h1 {
+    color: white;
+    font-family: 'Palanquin', sans-serif;
+    font-size: 3em;
+    line-height: 100%;
+    text-align: center;
+}
+
+.overlay h2 {
+    font-size: 5em;
+}
+/* ----------------------------------- */
+
+@media screen and (max-width : 800px) {
+    .overlay {
+    height:auto;
+	width: auto;
+	bottom: 0;
+	right: 0;
+	background-color: black
+    }
+
+
+}
+</style>
+
+</head>
+<body>
+
+<div class="overlay">
+    <h1>Dibilangin buka pake laptop!!</h1>
+    <a href="https://i.pinimg.com/564x/71/9c/10/719c10fb577785c70c66e50c24381e0c.jpg"><h2>😜😏</h2></a>
+</div>
+
+    <div class="container">
+        <div class="top">
+            <h1 class="hsatu">Happy</h1>
+            <h1 class="hdua">Birthday!</h1>
+
+    <!-- ------------------------------------------------------------------------------------- -->
+            <a href="https://drive.google.com/file/d/1SW3XQj5CvzyASf8YvXBb3iSSlxcxdtH-/view?usp=sharing" target="_blank">
+                <img src="https://i.postimg.cc/yYknG5w6/HPW-4-Compress.png" alt="Happy Birthday" class="masterimg">
+            </a> 
+
+            <p class="tgl">12 03 22</p>
+            <p class="sts">ALIVE</p>
+        </div>  
+
+<!-- ------------------------------------------------------------------------------------- -->
+
+        <a href="https://drive.google.com/file/d/1yyu3nCUx6CqMTpuEwwCwmTJF45UI37V5/view?usp=sharing" target="_blank">
+            <div class="box one">
+                <i class="fas fa-envelope-open-text"></i>
+                <h2>Ucapan</h2>
+            </div>
+        </a>
+
+<!-- ------------------------------------------------------------------------------------- -->
+
+        <a href="https://www.muse.place/present" target="_blank">
+            <div class="box two" id="called">
+                <i class="fas fa-gift"></i>
+                <h2>Kado</h2>
+            </div>
+        </a>
+<!-- ------------------------------------------------------------------------------------- -->
+
+        <a href="https://www.muse.place/sejarah" target="_blank">
+            <div class="box three">
+                <i class="fas fa-history"></i>
+                <h2>Loker Sejarah</h2>
+            </div>
+        </a>
+
+
+        <p class="copy">Copyright © 2021 Alvin Panjaitan</p>
+    </div>  
+
+</body>
+</html>
